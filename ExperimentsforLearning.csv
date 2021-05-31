@@ -1,0 +1,64 @@
+#,Concept,Code,Description,Intended Outcome,Code Hyperlink
+1,Shallow Neural Networks,Python,"This notebook develops a Shallow Neural Network to solve the Classification problem using Logistic Regression. A Shallow Neural Network has one single node through which input is processed.The dataset (.h5) is a collection of Cat Images. The data files needs to be uploaded to the Files section in the colab environment. The library h5py package (https://www.h5py.org/) is a Pythonic interface to the HDF5 binary data format. Each Image is a collection of R,G,B pixel intensity values represented as matrices, also called channels. The pixel intensity values are the features that defines the Image. Each Image is represented as a single vector of pixel intensity values.","By going through this notebook the Associate
+ ¥ will understand the concept and design of neural networks and its different components
+ ¥ will understand how to work with Images",https://github.com/datasigntist/deeplearning/blob/master/shallowNeuralNetwork_LogisticRegression.ipynb
+2,Deep Neural Networks,Python,"This notebook develops a Deep Neural Network to solve the Classification problem using Logistic Regression. A Deep Neural Network has multiple layers having multiple nodes through which input is processed.The dataset (.h5) is a collection of Cat Images. The data files needs to be uploaded to the Files section in the colab environment. The library h5py package (https://www.h5py.org/) is a Pythonic interface to the HDF5 binary data format. Each Image is a collection of R,G,B pixel intensity values represented as matrices, also called channels. The pixel intensity values are the features that defines the Image. Each Image is represented as a single vector of pixel intensity values.","By going through this notebook the Associate
+ ¥ will understand the concept and design of deep neural networks and its different components
+ ¥ will understand how to work with Images",https://github.com/datasigntist/deeplearning/blob/master/deepNeuralNetworks_LogisticRegression.ipynb
+3,Pandas,Python,"This notebook focusses on the following topics using titanic dataset
+ 
+ * Introduction to Pandas
+ * Data handling with Pandas -- Handling Missing Data, Creating new Features
+ * Basic Visualization
+ * Simple Feature Selection Strategies using different techniques","By going through this notebook the Associate will learn
+ ¥ to handle data using pandas data frame
+ ¥ filter, merge, join datasets
+ ¥ fill in missing data
+ ¥ create new data points in the data frame",https://colab.research.google.com/drive/1EwRuEMbfrDt5otj09p9oSioQVgEdRXvh
+4,Convolutions and Pooling,Python,"This notebook focusses on the following topics
+ 1) Introduction to Convolutions
+ 2) Introduction to Pooling
+ 3) Applying Convolution and Pooling on sample images to illustrate the concept","By going through this notebook the Associate will learn about
+ * Convolution
+ * Pooling",https://github.com/datasigntist/deeplearning/blob/master/Experiments_with_Convolutions_and_Poolings_using_Sample_Images.ipynb
+5,Recurrent Neural Networks,Python/Tensorflow,This notebook illustrates the concept of RNN using text generation as an example. It takes the lyrics of an english artist and attempts to generate new lyrics based on the seed text,"By going through this notebook the Associate will learn
+ 1) Developing a RNN
+ 2) Creating a corpus
+ 3) Tokenizing 
+ 4) Translating text into Training Dataset",https://github.com/datasigntist/deeplearning/blob/master/Experiments_with_RNN_Generating_Lyrics_for_a_song_by_an_Artist.ipynb
+6,Recurrent Neural Networks,Python/Tensorflow,This notebook illustrates the concept Sentiment Analysis using DNN/RNN,"By going through this notebook the Associate will learn
+ 1) Developing a DNN/RNN
+ 2) Creating a corpus
+ 3) Tokenizing 
+ 4) Translating text into Training Dataset
+ 5) Developing a many to one RNN architecture",https://github.com/datasigntist/deeplearning/blob/master/SentimentAnalysis_on_imdb_Reviews.ipynb
+7,Convolutional Neural Networks using TensorFlow,Python/Tensorflow,This notebook illustrates the concept of CNN,"By going through this notebook the Associate will learn
+ 1) Developing a CNN
+ 2) Using Images with Tensorflow leveraging the functionality of ImageDataGenerator",https://github.com/datasigntist/deeplearning/blob/master/Movie_Genre_Classification_based_on_Poster_Images.ipynb
+8,Recurrent Neural Networks using Character Level Generation,Python,This notebook illustrates the concept of generating new content using Character Level Generation,"By going through this notebook the Associate will learn
+ 1) Concept and Internal workings of RNN
+ 2) Implementing Character Level Generation",https://github.com/datasigntist/deeplearning/blob/master/Recurrent_Neural_Networks_Introduction_using_Character_Level_Generation.ipynb
+9,pySpark,pySpark,This notebook covers basic to intermediate concepts through practical experimentation on pySpark,"By going through this notebook the Associate will learn
+ 1) Create a RDD
+ 2) Apply Transformations and Actions on RDD
+ 3) Apply map, lambda, flatmap functions",https://github.com/datasigntist/deeplearning/blob/master/pySpark_Codes_1.ipynb
+10,pySpark,pySpark,This notebook covers basic to intermediate concepts through practical experimentation on pySpark using SQLContext,"By going through this notebook the Associate will learn about 
+ 1) SQLContext and 
+ 2) DataFrames",https://github.com/datasigntist/deeplearning/blob/master/pySpark_Codes_2.ipynb
+11,pySpark,pySpark,This notebook covers the basics of building a machine learning model in Spark. A logistic regression model is developed using Iris dataset,"By going through this notebook the Associate will learn about 
+ 1) SQLContext and 
+ 2) DataFrames
+ 3) Building a Logistic Regression Model
+ 4) Evaluating the model",https://github.com/datasigntist/deeplearning/blob/master/pySpark_Codes_3.ipynb
+12,pySpark,pySpark,This notebook covers the concept of processing multiple files through multiple transformations.,"By going through this notebook the Associate will learn about 
+ 1) Processing files
+ 2) Transformations
+ 3) func.when usage",https://github.com/datasigntist/deeplearning/blob/master/pySpark_Codes_4.ipynb
+13,Genetic Computing,python,This notebook introduces the concept of Genetic Computing through the 8 Queens problem,"By going through the notebook the Associate will understand
+ 1) Concept of Genetic Computing, solution representation and fitness scores
+ 2) Crossovers
+ 3) Mutations",https://github.com/datasigntist/deeplearning/blob/master/Introduction_to_Genetic_Computing_8Queens.ipynb
+14,Genetic Computing,python,This notebook introduces the concept of Genetic Computing through generation of a phrase,"By going through the notebook the Associate will understand
+ 1) Concept of Genetic Computing, solution representation and fitness scores
+ 2) Crossovers
+ 3) Mutations",https://github.com/datasigntist/deeplearning/blob/master/Introduction_to_Genetic_Computing_2.ipynb
